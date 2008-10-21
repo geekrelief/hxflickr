@@ -19,6 +19,9 @@ Included dependencies:
 	http://www.ralcr.com/caurina/ 
 
  ./com/adobe
- Parts of Adobe's as3corelib and as3flickrlib converted to haXe
+ Parts of Adobe's as3corelib 
 	http://code.google.com/p/as3corelib/
+
+ ./com/adobe/webapis/flickr
+ Adobe's as3flickrlib converted to haXe
 	http://code.google.com/p/as3flickrlib
