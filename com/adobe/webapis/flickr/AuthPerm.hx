@@ -43,16 +43,16 @@ package com.adobe.webapis.flickr;
 	class AuthPerm {
 		
 		/** Permission to read private information */
-		public static var READ:String = "read";
+		inline public static var READ:String = "read";
 		
 		/** Permission to add, edit and delete photo metadata (includes READ) */
-		public static var WRITE:String = "write";
+		inline public static var WRITE:String = "write";
 		
 		/** Permission to delete photos (includes WRITE and READ) */
-		public static var DELETE:String = "delete";
+		inline public static var DELETE:String = "delete";
 		
 		/** No permission to do anything ( not authenticated ) */
-		public static var NONE:String = "none";
+		inline public static var NONE:String = "none";
 		
 	}
 		

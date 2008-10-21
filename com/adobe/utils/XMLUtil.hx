@@ -43,7 +43,7 @@ package com.adobe.utils;
 		 * @langversion ActionScript 3.0
 		 * @playerversion Flash 9.0
 		 */
-		public static var TEXT:String = "text";
+		inline public static var TEXT:String = "text";
 		
 		/**
 		 * Constant representing a comment node type returned from XML.nodeKind.
@@ -53,7 +53,7 @@ package com.adobe.utils;
 		 * @langversion ActionScript 3.0
 		 * @playerversion Flash 9.0
 		 */		
-		public static var COMMENT:String = "comment";
+		inline public static var COMMENT:String = "comment";
 		
 		/**
 		 * Constant representing a processing instruction type returned from XML.nodeKind.
@@ -63,7 +63,7 @@ package com.adobe.utils;
 		 * @langversion ActionScript 3.0
 		 * @playerversion Flash 9.0
 		 */		
-		public static var PROCESSING_INSTRUCTION:String = "processing-instruction";
+		inline public static var PROCESSING_INSTRUCTION:String = "processing-instruction";
 		
 		/**
 		 * Constant representing an attribute type returned from XML.nodeKind.
@@ -73,7 +73,7 @@ package com.adobe.utils;
 		 * @langversion ActionScript 3.0
 		 * @playerversion Flash 9.0
 		 */		
-		public static var ATTRIBUTE:String = "attribute";
+		inline public static var ATTRIBUTE:String = "attribute";
 		
 		/**
 		 * Constant representing a element type returned from XML.nodeKind.
@@ -83,7 +83,7 @@ package com.adobe.utils;
 		 * @langversion ActionScript 3.0
 		 * @playerversion Flash 9.0
 		 */		
-		public static var ELEMENT:String = "element";
+		inline public static var ELEMENT:String = "element";
 		
 		/**
 		 * Checks whether the specified string is valid and well formed XML.
@@ -102,7 +102,7 @@ package com.adobe.utils;
 			
 			try
 			{
-				xml = new XML(data);
+				xml = Xml.parse(data);
 			}
 			catch(e:Error)
 			{

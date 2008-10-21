@@ -50,7 +50,7 @@ package com.adobe.crypto;
      */      
     class MD5Stream
     {
-        private static var mask:Int = 0xFF;
+        inline private static var mask:Int = 0xFF;
 
         private var arr:Array<Dynamic> ;
 

@@ -78,7 +78,7 @@ package com.adobe.webapis.flickr.methodgroups;
 		/**
 		 * The destination for photo uploads
 		 */
-		private static var UPLOAD_DEST:String = "http://www.flickr.com/services/upload/?";
+		inline private static var UPLOAD_DEST:String = "http://www.flickr.com/services/upload/?";
 	
 		/**
 		 * Construct a new Upload "method group" class

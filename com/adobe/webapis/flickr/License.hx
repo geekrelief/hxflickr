@@ -49,19 +49,19 @@ package com.adobe.webapis.flickr;
 		
 		public var url(getUrl, setUrl) : String ;
 		
-		public static var ALL_RIGHTS_RESERVED:Int = 0;
+		inline public static var ALL_RIGHTS_RESERVED:Int = 0;
 		
-		public static var ATTRIBUTION:Int = 4;
+		inline public static var ATTRIBUTION:Int = 4;
 		
-		public static var ATTRIBUTION_NODERIVS:Int = 6;
+		inline public static var ATTRIBUTION_NODERIVS:Int = 6;
 		
-		public static var ATTRIBUTION_NONCOMMERCIAL_NODERIVS:Int = 3;
+		inline public static var ATTRIBUTION_NONCOMMERCIAL_NODERIVS:Int = 3;
 		
-		public static var ATTRIBUTION_NONCOMMERCIAL:Int = 2;
+		inline public static var ATTRIBUTION_NONCOMMERCIAL:Int = 2;
 		
-		public static var ATTRIBUTION_NONCOMMERCIAL_SHAREALIKE:Int = 1;
+		inline public static var ATTRIBUTION_NONCOMMERCIAL_SHAREALIKE:Int = 1;
 		
-		public static var ATTRIBUTION_SHAREALIKE:Int = 5;
+		inline public static var ATTRIBUTION_SHAREALIKE:Int = 5;
 		
 		private var _id:Int;
 		private var _name:String;

@@ -68,7 +68,7 @@ package com.adobe.utils;
 		*
 		*	@see SHORT_MONTH
 		*/	
-		public static function getShortMonthName(d:Date):String
+		inline public static function getShortMonthName(d:Date):String
 		{
 			return monthNamesShort[d.getMonth()];
 		}
@@ -91,7 +91,7 @@ package com.adobe.utils;
 		*
 		*	@see SHORT_MONTH
 		*/	
-		public static function getShortMonthIndex(m:String):Int
+		inline public static function getShortMonthIndex(m:String):Int
 		{
 			return ArrayTools.indexOf(monthNamesStart, m);
 		}
@@ -111,7 +111,7 @@ package com.adobe.utils;
 		*
 		*	@see FULL_MONTH
 		*/	
-		public static function getFullMonthName(d:Date):String
+		inline public static function getFullMonthName(d:Date):String
 		{
 			return monthNamesLong[d.getMonth()];	
 		}
@@ -131,7 +131,7 @@ package com.adobe.utils;
 		*
 		*	@see FULL_MONTH
 		*/	
-		public static function getFullMonthIndex(m:String):Int
+		inline public static function getFullMonthIndex(m:String):Int
 		{
 			return ArrayTools.indexOf(monthNamesLong, m);
 		}
@@ -151,7 +151,7 @@ package com.adobe.utils;
 		*
 		*	@see SHORT_DAY
 		*/	
-		public static function getShortDayName(d:Date):String
+		inline public static function getShortDayName(d:Date):String
 		{
 			return dayNamesShort[d.getDay()];	
 		}
@@ -171,7 +171,7 @@ package com.adobe.utils;
 		*
 		*	@see SHORT_DAY
 		*/			
-		public static function getShortDayIndex(d:String):Int
+		inline public static function getShortDayIndex(d:String):Int
 		{
 			return ArrayTools.indexOf(dayNamesShort, d);
 		}
@@ -191,7 +191,7 @@ package com.adobe.utils;
 		*
 		*	@see FULL_DAY
 		*/	
-		public static function getFullDayName(d:Date):String
+		inline public static function getFullDayName(d:Date):String
 		{
 			return dayNamesLong[d.getDay()];	
 		}		
@@ -211,7 +211,7 @@ package com.adobe.utils;
 		*
 		*	@see FULL_DAY
 		*/		
-		public static function getFullDayIndex(d:String):Int
+		inline public static function getFullDayIndex(d:String):Int
 		{
 			return ArrayTools.indexOf(dayNamesLong, d);
 		}
@@ -328,7 +328,7 @@ package com.adobe.utils;
 		*	@playerversion Flash 9.0
 		*	@tiptext
 		*/	
-		public static function getAMPM(d:Date):String
+		inline public static function getAMPM(d:Date):String
 		{
 			return (d.hours > 11)? "PM" : "AM";
 		}
@@ -675,7 +675,7 @@ package com.adobe.utils;
 		/**
 		 * Converts a date into just after midnight.
 		 */
-		public static function makeMorning(d:Date):Date
+		inline public static function makeMorning(d:Date):Date
 		{
 			var d:Date = new Date(d.time);
 			d.hours = 0;
@@ -688,7 +688,7 @@ package com.adobe.utils;
 		/**
 		 * Converts a date into just befor midnight.
 		 */
-		public static function makeNight(d:Date):Date
+		inline public static function makeNight(d:Date):Date
 		{
 			var d:Date = new Date(d.time);
 			d.hours = 23;

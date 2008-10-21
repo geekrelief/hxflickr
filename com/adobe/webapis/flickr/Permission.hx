@@ -41,13 +41,13 @@ package com.adobe.webapis.flickr;
 	 */
 	class Permission {
 		
-		public static var ONLY_OWNER:Int = 0;
+		inline public static var ONLY_OWNER:Int = 0;
 		
-		public static var FRIENDS_AND_FAMILY:Int = 1;
+		inline public static var FRIENDS_AND_FAMILY:Int = 1;
 		
-		public static var CONTACTS:Int = 2;
+		inline public static var CONTACTS:Int = 2;
 		
-		public static var EVERYBODY:Int = 3;
+		inline public static var EVERYBODY:Int = 3;
 						
 	}
 		

@@ -95,31 +95,31 @@ package com.adobe.net;
 		
 		// space and % must be escaped in all cases.  '%' is the delimiter
 		// for escaped characters.
-		public static var URImustEscape:String =	" %";
+		inline public static var URImustEscape:String =	" %";
 		
 		// Baseline of what characters must be escaped
-		public static var URIbaselineEscape:String = URImustEscape + ":?#/@";
+		inline public static var URIbaselineEscape:String = URImustEscape + ":?#/@";
 		
 		// Characters that must be escaped in the part part.
-		public static var URIpathEscape:String = URImustEscape + "?#";
+		inline public static var URIpathEscape:String = URImustEscape + "?#";
 		
 		// Characters that must be escaped in the query part, if setting
 		// the query as a whole string.  If the query is set by
 		// name/value, URIqueryPartEscape is used instead.
-		public static var URIqueryEscape:String = URImustEscape + "#";
+		inline public static var URIqueryEscape:String = URImustEscape + "#";
 		
 		// This is what each name/value pair must escape "&=" as well
 		// so they don't conflict with the "param=value&param2=value2"
 		// syntax.
-		public static var URIqueryPartEscape:String = URImustEscape + "#&=";
+		inline public static var URIqueryPartEscape:String = URImustEscape + "#&=";
 		
 		// Non-hierarchical URI's can have query and fragment parts, but
 		// we also want to prevent '/' otherwise it might end up looking
 		// like a hierarchical URI to the parser.
-		public static var URInonHierEscape:String = 	URImustEscape + "?#/";
+		inline public static var URInonHierEscape:String = 	URImustEscape + "?#/";
 		
 		// Baseline uninitialized setting for the URI scheme.
-		public static var UNKNOWN_SCHEME:String = "unknown";
+		inline public static var UNKNOWN_SCHEME:String = "unknown";
 		
 		// The following bitmaps are used for performance enhanced
 		// character escaping.
@@ -168,10 +168,10 @@ package com.adobe.net;
 			new URIEncodingBitmap(URInonHierEscape);
 			
 		// Values used by getRelation()
-		public static var NOT_RELATED:Int = 0;
-		public static var CHILD:Int = 1;
-		public static var EQUAL:Int = 2;
-		public static var PARENT:Int = 3;
+		inline public static var NOT_RELATED:Int = 0;
+		inline public static var CHILD:Int = 1;
+		inline public static var EQUAL:Int = 2;
+		inline public static var PARENT:Int = 3;
 
 		//-------------------------------------------------------------------
 		// protected class members

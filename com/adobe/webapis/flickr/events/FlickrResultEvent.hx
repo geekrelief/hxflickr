@@ -46,226 +46,226 @@ package com.adobe.webapis.flickr.events;
 	class FlickrResultEvent extends ServiceEvent
 	{
 		/** Constant for the authCheckToken event type. */
-		public static var AUTH_CHECK_TOKEN:String = "authCheckToken";
+		inline public static var AUTH_CHECK_TOKEN:String = "authCheckToken";
 		
 		/** Constant for the authGetFrob event type. */
-		public static var AUTH_GET_FROB:String = "authGetFrob";
+		inline public static var AUTH_GET_FROB:String = "authGetFrob";
 		
 		/** Constant for the authGetToken event type. */
-		public static var AUTH_GET_TOKEN:String = "authGetToken";
+		inline public static var AUTH_GET_TOKEN:String = "authGetToken";
 		
 		/** Constant for the blogsGetList event type. */
-		public static var BLOGS_GET_LIST:String = "blogsGetList";
+		inline public static var BLOGS_GET_LIST:String = "blogsGetList";
 		
 		/** Constant for the blogsPostPhoto event type. */
-		public static var BLOGS_POST_PHOTO:String = "blogsPostPhoto";
+		inline public static var BLOGS_POST_PHOTO:String = "blogsPostPhoto";
 		
 		/** Constant for the contactsGetList event type. */
-		public static var CONTACTS_GET_LIST:String = "contactsGetList";
+		inline public static var CONTACTS_GET_LIST:String = "contactsGetList";
 		
 		/** Constant for the contactsGetPublicList event type. */
-		public static var CONTACTS_GET_PUBLIC_LIST:String = "contactsGetPublicList";
+		inline public static var CONTACTS_GET_PUBLIC_LIST:String = "contactsGetPublicList";
 		
 		/** Constant for the favoritesAdd event type. */
-		public static var FAVORITES_ADD:String = "favoritesAdd";
+		inline public static var FAVORITES_ADD:String = "favoritesAdd";
 
 		/** Constant for the favoritesGetList event type. */
-		public static var FAVORITES_GET_LIST:String = "favoritesGetList";
+		inline public static var FAVORITES_GET_LIST:String = "favoritesGetList";
 		
 		/** Constant for the favoritesGetPublicList event type. */
-		public static var FAVORITES_GET_PUBLIC_LIST:String = "favoritesGetPublicList";
+		inline public static var FAVORITES_GET_PUBLIC_LIST:String = "favoritesGetPublicList";
 		
 		/** Constant for the favoritesRemove event type. */
-		public static var FAVORITES_REMOVE:String = "favoritesRemove";
+		inline public static var FAVORITES_REMOVE:String = "favoritesRemove";
 		
 		/** Constant for the groupsBrowse event type. */
-		public static var GROUPS_BROWSE:String = "groupsBrowse";
+		inline public static var GROUPS_BROWSE:String = "groupsBrowse";
 		
 		/** Constant for the groupsGetInfo event type. */
-		public static var GROUPS_GET_INFO:String = "groupsGetInfo";
+		inline public static var GROUPS_GET_INFO:String = "groupsGetInfo";
 		
 		/** Constant for the groupsSearch event type. */
-		public static var GROUPS_SEARCH:String = "groupsSearch";
+		inline public static var GROUPS_SEARCH:String = "groupsSearch";
 		
 		/** Constant for the groupsPoolsAdd event type. */
-		public static var GROUPS_POOLS_ADD:String = "groupsPoolsAdd";
+		inline public static var GROUPS_POOLS_ADD:String = "groupsPoolsAdd";
 		
 		/** Constant for the groupsPoolsGetContext event type. */
-		public static var GROUPS_POOLS_GET_CONTEXT:String = "groupsPoolsGetContext";
+		inline public static var GROUPS_POOLS_GET_CONTEXT:String = "groupsPoolsGetContext";
 		
 		/** Constant for the groupsPoolsGetGroups event type. */
-		public static var GROUPS_POOLS_GET_GROUPS:String = "groupsPoolsGetGroups";
+		inline public static var GROUPS_POOLS_GET_GROUPS:String = "groupsPoolsGetGroups";
 		
 		/** Constant for the groupsPoolsGetPhotos event type. */
-		public static var GROUPS_POOLS_GET_PHOTOS:String = "groupsPoolsGetPhotos";
+		inline public static var GROUPS_POOLS_GET_PHOTOS:String = "groupsPoolsGetPhotos";
 		
 		/** Constant for the groupsPoolRemove event type. */
-		public static var GROUPS_POOLS_REMOVE:String = "groupsPoolsRemove";
+		inline public static var GROUPS_POOLS_REMOVE:String = "groupsPoolsRemove";
 		
 		/** Constant for the interestingnessGetList event type. */
-		public static var INTERESTINGNESS_GET_LIST:String = "interestingnessGetList";
+		inline public static var INTERESTINGNESS_GET_LIST:String = "interestingnessGetList";
 		
 		/** Constant for the peopleFindByEmail event type. */
-		public static var PEOPLE_FIND_BY_EMAIL:String = "peopleFindByEmail";
+		inline public static var PEOPLE_FIND_BY_EMAIL:String = "peopleFindByEmail";
 		
 		/** Constant for the peopleFindByUsername event type. */
-		public static var PEOPLE_FIND_BY_USERNAME:String = "peopleFindByUsername";
+		inline public static var PEOPLE_FIND_BY_USERNAME:String = "peopleFindByUsername";
 		
 		/** Constant for the peopleGetInfo event type. */
-		public static var PEOPLE_GET_INFO:String = "peopleGetInfo";
+		inline public static var PEOPLE_GET_INFO:String = "peopleGetInfo";
 		
 		/** Constant for the peopleGetPublicGroups event type. */
-		public static var PEOPLE_GET_PUBLIC_GROUPS:String = "peopleGetPublicGroups";
+		inline public static var PEOPLE_GET_PUBLIC_GROUPS:String = "peopleGetPublicGroups";
 		
 		/** Constant for the peopleetPublicPhotos event type. */
-		public static var PEOPLE_GET_PUBLIC_PHOTOS:String = "peopleGetPublicPhotos";
+		inline public static var PEOPLE_GET_PUBLIC_PHOTOS:String = "peopleGetPublicPhotos";
 		
 		/** Constant for the peopleGetUploadStatus event type. */
-		public static var PEOPLE_GET_UPLOAD_STATUS:String = "peopleGetUploadStatus";
+		inline public static var PEOPLE_GET_UPLOAD_STATUS:String = "peopleGetUploadStatus";
 		
 		/** Constant for the photosAddTags event type. */
-		public static var PHOTOS_ADD_TAGS:String = "photosAddTags";
+		inline public static var PHOTOS_ADD_TAGS:String = "photosAddTags";
 		
 		/** Constant for the photosGetAllContexts event type. */
-		public static var PHOTOS_GET_ALL_CONTEXTS:String = "photosGetAllContexts";
+		inline public static var PHOTOS_GET_ALL_CONTEXTS:String = "photosGetAllContexts";
 		
 		/** Constant for the photosGetContactsPhotos event type. */
-		public static var PHOTOS_GET_CONTACTS_PHOTOS:String = "photosGetContactsPhotos";
+		inline public static var PHOTOS_GET_CONTACTS_PHOTOS:String = "photosGetContactsPhotos";
 		
 		/** Constant for the photosGetContactsPublicPhotos event type. */
-		public static var PHOTOS_GET_CONTACTS_PUBLIC_PHOTOS:String = "photosGetContactsPublicPhotos";
+		inline public static var PHOTOS_GET_CONTACTS_PUBLIC_PHOTOS:String = "photosGetContactsPublicPhotos";
 		
 		/** Constant for the photosGetContext event type. */
-		public static var PHOTOS_GET_CONTEXT:String = "photosGetContext";
+		inline public static var PHOTOS_GET_CONTEXT:String = "photosGetContext";
 		
 		/** Constant for the photosGetCounts event type. */
-		public static var PHOTOS_GET_COUNTS:String = "photosGetCounts";
+		inline public static var PHOTOS_GET_COUNTS:String = "photosGetCounts";
 		
 		/** Constant for the photosGetExif event type. */
-		public static var PHOTOS_GET_EXIF:String = "photosGetExif";
+		inline public static var PHOTOS_GET_EXIF:String = "photosGetExif";
 
 		/** Constant for the photosGetInfo event type. */
-		public static var PHOTOS_GET_INFO:String = "photosGetInfo";
+		inline public static var PHOTOS_GET_INFO:String = "photosGetInfo";
 		
 		/** Constant for the photosGetNotInSet event type. */
-		public static var PHOTOS_GET_NOT_IN_SET:String = "photosGetNotInSet";
+		inline public static var PHOTOS_GET_NOT_IN_SET:String = "photosGetNotInSet";
 		
 		/** Constant for the photosGetPerms event type. */
-		public static var PHOTOS_GET_PERMS:String = "photosGetPerms";
+		inline public static var PHOTOS_GET_PERMS:String = "photosGetPerms";
 		
 		/** Constant for the photosGetRecent event type. */
-		public static var PHOTOS_GET_RECENT:String = "photosGetRecent";
+		inline public static var PHOTOS_GET_RECENT:String = "photosGetRecent";
 		
 		/** Constant for the photosGetSizes event type. */
-		public static var PHOTOS_GET_SIZES:String = "photosGetSizes";
+		inline public static var PHOTOS_GET_SIZES:String = "photosGetSizes";
 		
 		/** Constant for the photosGetUntagged event type. */
-		public static var PHOTOS_GET_UNTAGGED:String = "photosGetUntagged";
+		inline public static var PHOTOS_GET_UNTAGGED:String = "photosGetUntagged";
 		
 		/** Constant for the photosRemoveTag event type. */
-		public static var PHOTOS_REMOVE_TAG:String = "photosRemoveTag";
+		inline public static var PHOTOS_REMOVE_TAG:String = "photosRemoveTag";
 		
 		/** Constant for the photosSearch event type. */
-		public static var PHOTOS_SEARCH:String = "photosSearch";
+		inline public static var PHOTOS_SEARCH:String = "photosSearch";
 		
 		/** Constant for the photosSetDates event type. */
-		public static var PHOTOS_SET_DATES:String = "photosSetDates";
+		inline public static var PHOTOS_SET_DATES:String = "photosSetDates";
 		
 		/** Constant for the photosSetMeta event type. */
-		public static var PHOTOS_SET_META:String = "photosSetMeta";
+		inline public static var PHOTOS_SET_META:String = "photosSetMeta";
 		
 		/** Constant for the photosSetPerms event type. */
-		public static var PHOTOS_SET_PERMS:String = "photosSetPerms";
+		inline public static var PHOTOS_SET_PERMS:String = "photosSetPerms";
 		
 		/** Constant for the photosSetTags event type. */
-		public static var PHOTOS_SET_TAGS:String = "photosSetTags";
+		inline public static var PHOTOS_SET_TAGS:String = "photosSetTags";
 		
 		/** Constant for the photosLicensesGetInfo event type. */
-		public static var PHOTOS_LICENSES_GET_INFO:String = "photosLicensesGetInfo";
+		inline public static var PHOTOS_LICENSES_GET_INFO:String = "photosLicensesGetInfo";
 		
 		/** Constant for the photosLicensesSetLicense event type. */
-		public static var PHOTOS_LICENSES_SET_LICENSE:String = "photosLicensesSetLicense";
+		inline public static var PHOTOS_LICENSES_SET_LICENSE:String = "photosLicensesSetLicense";
 		
 		/** Constant for the photosNotesAdd event type. */
-		public static var PHOTOS_NOTES_ADD:String = "photosNotesAdd";
+		inline public static var PHOTOS_NOTES_ADD:String = "photosNotesAdd";
 		
 		/** Constant for the photosNotesEdit event type. */
-		public static var PHOTOS_NOTES_EDIT:String = "photosNotesEdit";
+		inline public static var PHOTOS_NOTES_EDIT:String = "photosNotesEdit";
 		
 		/** Constant for the photosNotesDelete event type. */
-		public static var PHOTOS_NOTES_DELETE:String = "photosNotesDelete";
+		inline public static var PHOTOS_NOTES_DELETE:String = "photosNotesDelete";
 		
 		/** Constant for the photosTransformRotate event type. */
-		public static var PHOTOS_TRANSFORM_ROTATE:String = "photosTransformRotate";
+		inline public static var PHOTOS_TRANSFORM_ROTATE:String = "photosTransformRotate";
 		
 		/** Constant for the photosUploadCheckTickets event type. */
-		public static var PHOTOS_UPLOAD_CHECK_TICKETS:String = "photosUploadCheckTickets";
+		inline public static var PHOTOS_UPLOAD_CHECK_TICKETS:String = "photosUploadCheckTickets";
 		
 		/** Constant for the photosetsAddPhoto event type. */
-		public static var PHOTOSETS_ADD_PHOTO:String = "photosetsAddPhoto";
+		inline public static var PHOTOSETS_ADD_PHOTO:String = "photosetsAddPhoto";
 		
 		/** Constant for the photosetsCreate event type. */
-		public static var PHOTOSETS_CREATE:String = "photosetsCreate";
+		inline public static var PHOTOSETS_CREATE:String = "photosetsCreate";
 		
 		/** Constant for the photosetsDelete event type. */
-		public static var PHOTOSETS_DELETE:String = "photosetsDelete";
+		inline public static var PHOTOSETS_DELETE:String = "photosetsDelete";
 		
 		/** Constant for the photosetsEditMeta event type. */
-		public static var PHOTOSETS_EDIT_META:String = "photosetsEditMeta";
+		inline public static var PHOTOSETS_EDIT_META:String = "photosetsEditMeta";
 		
 		/** Constant for the photosetsEditPhotos event type. */
-		public static var PHOTOSETS_EDIT_PHOTOS:String = "photosetsEditPhotos";
+		inline public static var PHOTOSETS_EDIT_PHOTOS:String = "photosetsEditPhotos";
 		
 		/** Constant for the photosetsGetContext event type. */
-		public static var PHOTOSETS_GET_CONTEXT:String = "photosetsGetContext";
+		inline public static var PHOTOSETS_GET_CONTEXT:String = "photosetsGetContext";
 		
 		/** Constant for the photosetsGetInfo event type. */
-		public static var PHOTOSETS_GET_INFO:String = "photosetsGetInfo";
+		inline public static var PHOTOSETS_GET_INFO:String = "photosetsGetInfo";
 		
 		/** Constant for the photosetsGetList event type. */
-		public static var PHOTOSETS_GET_LIST:String = "photosetsGetList";
+		inline public static var PHOTOSETS_GET_LIST:String = "photosetsGetList";
 		
 		/** Constant for the photosetsGetPhotos event type. */
-		public static var PHOTOSETS_GET_PHOTOS:String = "photosetsGetPhotos";
+		inline public static var PHOTOSETS_GET_PHOTOS:String = "photosetsGetPhotos";
 		
 		/** Constant for the photosets event type. */
-		public static var PHOTOSETS_ORDER_SETS:String = "photosetsOrderSets";
+		inline public static var PHOTOSETS_ORDER_SETS:String = "photosetsOrderSets";
 		
 		/** Constant for the photosets event type. */
-		public static var PHOTOSETS_REMOVE_PHOTO:String = "photosetsRemovePhoto";
+		inline public static var PHOTOSETS_REMOVE_PHOTO:String = "photosetsRemovePhoto";
 		
 		/** Constant for the tagsGetListPhoto event type. */
-		public static var TAGS_GET_LIST_PHOTO:String = "tagsGetListPhoto";
+		inline public static var TAGS_GET_LIST_PHOTO:String = "tagsGetListPhoto";
 		
 		/** Constant for the tagsGetListUser event type. */
-		public static var TAGS_GET_LIST_USER:String = "tagsGetListUser";
+		inline public static var TAGS_GET_LIST_USER:String = "tagsGetListUser";
 		
 		/** Constant for the tagsGetListUserPopular event type. */
-		public static var TAGS_GET_LIST_USER_POPULAR:String = "tagsGetListUserPopular";
+		inline public static var TAGS_GET_LIST_USER_POPULAR:String = "tagsGetListUserPopular";
 		
 		/** Constant for the tagsGetRelated event type. */
-		public static var TAGS_GET_RELATED:String = "tagsGetRelated";
+		inline public static var TAGS_GET_RELATED:String = "tagsGetRelated";
 		
 		/** Constant for the testEcho event type. */
-		public static var TEST_ECHO:String = "testEcho";
+		inline public static var TEST_ECHO:String = "testEcho";
 		
 		/** Constant for the testLogin event type. */
-		public static var TEST_LOGIN:String = "testLogin";
+		inline public static var TEST_LOGIN:String = "testLogin";
 		
 		/** Constant for the urlsGetGroup event type. */
-		public static var URLS_GET_GROUP:String = "urlsGetGroup";
+		inline public static var URLS_GET_GROUP:String = "urlsGetGroup";
 		
 		/** Constant for the urlsGetUserPhotos event type. */
-		public static var URLS_GET_USER_PHOTOS:String = "urlsGetUserPhotos";
+		inline public static var URLS_GET_USER_PHOTOS:String = "urlsGetUserPhotos";
 		
 		/** Constant for the urlsGetUserProfile event type. */
-		public static var URLS_GET_USER_PROFILE:String = "urlsGetUserProfile";
+		inline public static var URLS_GET_USER_PROFILE:String = "urlsGetUserProfile";
 		
 		/** Constant for the urlsLookupGroup event type. */
-		public static var URLS_LOOKUP_GROUP:String = "urlsLookupGroup";
+		inline public static var URLS_LOOKUP_GROUP:String = "urlsLookupGroup";
 		
 		/** Constant for the urlsLookupUser event type. */
-		public static var URLS_LOOKUP_USER:String = "urlsLookupUser";
+		inline public static var URLS_LOOKUP_USER:String = "urlsLookupUser";
 		
 		/**
 		 * True if the event is the result of a successful call,

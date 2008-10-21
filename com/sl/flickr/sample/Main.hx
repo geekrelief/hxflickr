@@ -39,16 +39,16 @@ package com.sl.flickr.sample;
 		/**
 		 * Flickr URL address, used for Security.allowDomain.
 		 */
-		public static var FLICKR_URL:String = "http://www.flickr.com";
-		public static var CROSSDOMAIN_URL:String = "http://api.flickr.com/crossdomain.xml";
+		inline public static var FLICKR_URL:String = "http://www.flickr.com";
+		inline public static var CROSSDOMAIN_URL:String = "http://api.flickr.com/crossdomain.xml";
 		/**
 		 * Developer's API key
 		 */
-		public static var API:String = "YOUR_API_KEY";
+		inline public static var API:String = "YOUR_API_KEY";
 		/**
 		 * API's secret number
 		 */
-		public static var SECRET:String = "YOUR_SECRET";
+		inline public static var SECRET:String = "YOUR_SECRET";
 
 		/**
 		 * FlickrService instance

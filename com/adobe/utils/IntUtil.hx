@@ -46,7 +46,7 @@ package com.adobe.utils;
 		 * @playerversion Flash 9.0
 		 * @tiptext
 		 */
-		public static function rol ( x:Int, n:Int ):Int {
+		inline public static function rol ( x:Int, n:Int ):Int {
 			return ( x << n ) | ( x >>> ( 32 - n ) );
 		}
 		
@@ -57,13 +57,14 @@ package com.adobe.utils;
 		 * @playerversion Flash 9.0
 		 * @tiptext
 		 */
-		public static function ror ( x:Int, n:Int ):UInt {
-			var nn:Int = 32 - n;
-			return ( x << nn ) | ( x >>> ( 32 - nn ) );
+		inline public static function ror ( x:Int, n:Int ):UInt {
+			//var nn:Int = 32 - n;
+			//return ( x << nn ) | ( x >>> ( 32 - nn ) );
+			return ( x << (32-n) ) | ( x >>> n );
 		}
 		
 		/** String for quick lookup of a hex character based on index */
-		private static var hexChars:String = "0123456789abcdef";
+		inline private static var hexChars:String = "0123456789abcdef";
 		
 		/**
 		 * Outputs the hex value of a int, allowing the developer to specify

@@ -55,34 +55,34 @@ package com.adobe.webapis.flickr;
 		public var errorMessage(getErrorMessage, setErrorMessage) : String ;
 		
 		/** The passed signature was invalid. */
-		public static var INVALID_SIGNATURE:Int = 96;
+		inline public static var INVALID_SIGNATURE:Int = 96;
 		
 		/** The call required signing but no signature was sent. */
-		public static var MISSING_SIGNATURE:Int = 97;
+		inline public static var MISSING_SIGNATURE:Int = 97;
 		
 		/** The login details or auth token passed were invalid. */
-		public static var LOGIN_FAILED:Int = 98;
+		inline public static var LOGIN_FAILED:Int = 98;
 		
 		/** The method requires user authentication but the user was not logged in, or the authenticated method call did not have the required permissions. */
-		public static var INSUFFICIENT_PERMISSIONS:Int = 99;	
+		inline public static var INSUFFICIENT_PERMISSIONS:Int = 99;	
 		
 		/** The API key passed was not valid or has expired. */
-		public static var INVALID_API_KEY:Int = 	100;
+		inline public static var INVALID_API_KEY:Int = 	100;
 		
 		/** The requested service is temporarily unavailable. */
-		public static var SERVICE_CURRENTLY_UNAVAILABLE:Int = 105;
+		inline public static var SERVICE_CURRENTLY_UNAVAILABLE:Int = 105;
 		
 		/** The requested response format was not found. */
-		public static var FORMAT_NOT_FOUND:Int = 111;
+		inline public static var FORMAT_NOT_FOUND:Int = 111;
 		
 		/** The requested method was not found. */
-		public static var METHOD_NOT_FOUND:Int = 112;
+		inline public static var METHOD_NOT_FOUND:Int = 112;
 	
 		/** The SOAP envelope send in the request could not be parsed. */
-		public static var INVALID_SOAP_ENVELOPE:Int = 114;
+		inline public static var INVALID_SOAP_ENVELOPE:Int = 114;
 		
 		/** The XML-RPC request document could not be parsed */
-		public static var INVALID_XML_RPC_CALL:Int = 115;
+		inline public static var INVALID_XML_RPC_CALL:Int = 115;
 		
 		private var _errorCode:Int;
 		private var _errorMessage:String;
