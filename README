@@ -8,11 +8,17 @@ The as3flicklib included has not been fully tested.
 Teh as3corelib included is not complete and has not been fully tested.
 
 Included dependencies:
+
+ ./com/sl
  Shang Liang's original codebase converted to haXe 
 	http://www.shang-liang.com/blog/attachment/as3flickrlib_sample
 	http://www.shang-liang.com/blog/attachment/as3flickrlib_sample/source.zip
+
+ ./caurina
  Zeh Fernando's haXe Caurina Tweener 
 	http://www.ralcr.com/caurina/ 
+
+ ./com/adobe
  Parts of Adobe's as3corelib and as3flickrlib converted to haXe
 	http://code.google.com/p/as3corelib/
 	http://code.google.com/p/as3flickrlib
